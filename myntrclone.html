@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>mynta clone</title>
+    <style>
+         *{
+            margin:0;
+            padding:0;
+            font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+            box-sizing: border-box;
+         }
+         #hd{
+            display :flex;
+            height:82px;
+            background-color:#ffffff;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #898a8e;
+         }
+         .myntra{
+            height: 45px;
+            
+            
+         }
+         #logo{
+            margin-left:4%; 
+         }
+        #action{
+         margin-right:4%;
+        }
+         #nav{
+            display:flex;
+            min-width:500px;
+            justify-content:space-between;
+            
+         }
+         #nav a{
+            font-size: 14px;
+            letter-spacing: .3px;
+             color: #282c3f;
+             font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+             text-decoration: none;
+             font-weight: 700;
+             padding:28px 0;
+             border-bottom:5px solid#ffffff;
+             
+         }
+         #nav a:hover{
+               border-bottom: 4px solid #f54e77;
+         }
+         #su{
+            color: rgb(108, 37, 44);
+            font - size:10px;
+         }
+         .searchbar{
+            height:40px;
+            min-width:200px;
+            width:20%;
+            display:flex;
+            align-items:center;
+            justify-content: center;
+         }
+         .material-symbols-outlined search_icon{
+            align- item:center;
+            height:17px;
+            background-color:#f5f5f6
+         }
+         .searchby{
+            color: #696e79;
+            background-color: #dddde2;
+            flex-grow: 1;
+            height:28px;
+            font -size:16px;
+            border-radius:0px 4px 4px 0px;
+            border:none;
+            
+         }
+         #action{
+            display:flex;
+            align-items:center
+            width:30%;
+            min-width:200px;
+            justify-content:space-evenly;
+         }
+         .actionco{
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+            justify-content: space-evenly;
+            
+         }
+         #sd{
+            background-color:#dddde2 ;
+            margin-top:0px;
+            border-radius:4px 0px 0px 4px;
+            align-items: center;
+            width:30px;
+         }
+         .bannerc{
+            margin: 40px 0;
+            
+         }
+         .bannerimg{
+            width:100%;
+         }
+         .catehead{
+            color: #3e4152;
+            letter-spacing:.15em;
+            font-size:1.8em;
+            margin:50px 0 10px 30px;
+            max-height:5em;
+            font-weight:700;
+            margin-bottom:50px;
+
+         }
+         .cateimg{
+            display:flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+         }
+         .saleitem{
+              width:250px;
+         }
+         .foot{
+            padding:30px 0px 40px 0px;
+            background-color: #fafbfc;
+            display:flex;
+            justify-content: space-evenly;
+         }
+         .foot_col{
+            display:flex;
+            flex-direction:column;
+         }
+         .foot_col h3{
+            color:#282c3f;
+            font- size:14px;
+            margin-bottom:25px;
+         }
+         .foot_col a{
+            color:#696b79;
+            font- size:5px;
+            text-decoration:none;
+            padding-bottom:5px;
+         }
+         .copy{
+            color: #94969f;
+            text-align:end;
+            padding:15px;
+         }
+
+    </style>
+</head>
+<body>
+        
+        <div id ="hd">
+          <div id="logo"><a href="#"><img class="myntra" src="myntra_logo.webp" alt="myntrahome"></a></div>
+          <nav id="nav">
+            <a href="#">MEN</a>
+            <a href="#">WOMEN</a>
+            <a href="#">KIDS</a>
+            <a href="#">HOME & LIVING</a>
+            <a href="#">BEAUTY</a>
+            <a href="#">STUDIO <sup id="su">NEW</sup></a>
+
+          </nav>
+          <div class="searchbar">
+            <div id="sd"><span class="material-symbols-outlined search_icon">Search</span></div>
+            <input  class="searchby" placeholder="Search for products,brands and more">
+         </div>
+          <div id ="action">
+              <div class="actionco">
+               <span class="material-symbols-outlined">
+                  person
+                  </span>
+                  <div>Profile</div>
+              </div>
+              <div class="actionco">
+               <span class="material-symbols-outlined">
+                  favorite
+                  </span>
+                  <div>Whishlist</div>
+              </div>
+              <div class="actionco">
+               <span class="material-symbols-outlined">
+                  shopping_bag
+                  </span>
+                  <div>Bag</div>
+              </div>
+
+
+
+            </div>
+
+
+        </div> 
+      
+     <main>
+         <div class="bannerc">
+            <img class="bannerimg" src="banner.jpg" alt="main banner">
+         </div>
+
+         <div class="catehead">MEDAL WORTHY BRANDS TO BAG</div>
+         <div class="cateimg">
+            <a href="#" ><img class="saleitem" src="1o.png"></a>
+            <a href="#" ><img class="saleitem" src="2o.png"></a>
+            <a href="#" ><img class="saleitem" src="3o.png"></a>
+            <a href="#" ><img class="saleitem" src="4o.png"></a>
+            <a href="#" ><img class="saleitem" src="5o.png"></a>
+            <a href="#" ><img class="saleitem" src="6o.png"></a>
+            <a href="#" ><img class="saleitem" src="7o.png"></a>
+            <a href="#" ><img class="saleitem" src="8o.png"></a>
+            <a href="#" ><img class="saleitem" src="9o.png"></a>
+         </div>
+         <div class="catehead">SHOP BY CATEGORY</div>
+         <div class="cateimg">
+            <a href="#" ><img class="saleitem" src="1.jpg"></a>
+            <a href="#" ><img class="saleitem" src="2.jpg"></a>
+            <a href="#" ><img class="saleitem" src="3.jpg"></a>
+            <a href="#" ><img class="saleitem" src="4.jpg"></a>
+            <a href="#" ><img class="saleitem" src="5.jpg"></a>
+            <a href="#" ><img class="saleitem" src="6.jpg"></a>
+            <a href="#" ><img class="saleitem" src="7.jpg"></a>
+            <a href="#" ><img class="saleitem" src="8.jpg"></a>
+            <a href="#" ><img class="saleitem" src="9.jpg"></a>
+            
+         </div>
+</main>  
+
+    <footer>
+           <div class="foot">
+               <div class="foot_col">
+                  <h3>ONLINE SHOPPING</h3>
+                  <a href="#">MEN</a>
+                  <a href="#">WOMEN</a>
+                  <a href="#">KIDS</a>
+                  <a href="#">HOME & LIVING</a>
+                  <a href="#">BEAUTY</a>
+                  <a href="#">GIFT CARD</a>
+                  <a href="#">MYNTRA INSIDER</a>
+               </div>
+               <div class="foot_col">
+                  <h3>ONLINE SHOPPING</h3>
+                  <a href="#">MEN</a>
+                  <a href="#">WOMEN</a>
+                  <a href="#">KIDS</a>
+                  <a href="#">HOME & LIVING</a>
+                  <a href="#">BEAUTY</a>
+                  <a href="#">GIFT CARD</a>
+                  <a href="#">MYNTRA INSIDER</a>
+               </div>
+               <div class="foot_col">
+                  <h3>ONLINE SHOPPING</h3>
+                  <a href="#">MEN</a>
+                  <a href="#">WOMEN</a>
+                  <a href="#">KIDS</a>
+                  <a href="#">HOME & LIVING</a>
+                  <a href="#">BEAUTY</a>
+                  <a href="#">GIFT CARD</a>
+                  <a href="#">MYNTRA INSIDER</a>
+               </div>
+
+
+           </div>
+
+       <hr>
+      <div class="copy">© 2024 www.myntra.com. All rights reserved.</div>
+
+
+
+
+    </footer>
+
+
+</body>
+</html>
